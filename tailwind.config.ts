@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'merriweather': ['Merriweather', 'serif'],
+				'roboto': ['Roboto', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -51,6 +55,12 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				government: {
+					navy: 'hsl(var(--government-navy))',
+					gold: 'hsl(var(--government-gold))',
+					'light-gray': 'hsl(var(--government-light-gray))',
+					'dark-gray': 'hsl(var(--government-dark-gray))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
